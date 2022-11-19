@@ -9,6 +9,9 @@ body {
 }
 
 .login-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin: 5em auto;
     padding: 2px;
     border-radius: 5px;
@@ -18,7 +21,6 @@ body {
 }
 .login-container h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 2em;
     font-size: 1.5rem;
     font-weight: 800;
     font-style: italic;
@@ -66,7 +68,6 @@ button:hover{
         padding: 5px;
     }
     .login-container h1{
-        margin-top: 2em;
         font-size: 2rem; 
     }
     fieldset{
@@ -77,7 +78,7 @@ button:hover{
 }
 
 @media (min-width:75em) {
-    .login-container h1{
+    fieldset{
         margin-top: 1em;
-    }
+    }    
 }
