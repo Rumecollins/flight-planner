@@ -44,6 +44,38 @@ input:hover{
 .margin-top{
     margin-top: 3em;
 }
+.body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    padding: 10px;
+    font-size: 2em;
+}
+.main{
+    width: 80%;
+}
+.departure{
+    background-color: #eee;
+    color: #0F2027;
+}
+
+.departure table{
+    width: 98%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+table th{
+    background-color: #c4c4c4; 
+    text-align: center;
+}
+table td{
+    border: 2px #c4c4c4 solid;
+}
+
 
 button{
     border: none;
@@ -58,6 +90,9 @@ button{
 button:hover{
     background-color: rgb(47, 47, 187);
     transform: scale(1.2);   
+}
+.btn-mg{
+    margin-top: -15px;
 }
 
 @media (min-width:55em) {
@@ -75,6 +110,9 @@ button:hover{
         margin: 2em 5em;
         border-radius:6px ;
     }    
+}
+table{
+    margin-top: 2em;
 }
 
 @media (min-width:75em) {

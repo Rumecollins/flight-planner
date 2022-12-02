@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Schedule FLight</title>
+</head>
+<body class="body">
+    <main class="main">
+        <div class="departure">
+            <header>Schedule Flights</header>
+            <marquee >Click to select the particular airport, plane and flight you want to book</marquee>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5">airports</th>
+                    </tr>
+                    <tr>
+                        <th>id</th>
+                        <th>airport code</th>
+                        <th colspan="1">airport name</th>
+                        <th>country</th>
+                    </tr>
+                </thead>
+
+                <tbody id="table-body-1"></tbody>
+            </table>
+            <button class="select-fligth btn-mg">view select airport</button>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5">planes</th>
+                    </tr>
+                    <tr>
+                        <th>id</th>
+                        <th>make</th>
+                        <th colspan="1">model</th>
+                        <th>year</th>
+                        <th>capacity</th>
+                    </tr>
+                </thead>
+
+                <tbody id="table-body-2">
+                    
+                </tbody>
+            </table>
+            <button class="select-fligth btn-mg">view select plane</button>
+
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5">flights</th>
+                    </tr>
+                    <tr>
+                        <th>id</th>
+                        <th>planeid</th>
+                        <th>airport from id</th>
+                        <th>airport to id</th>
+                        <th>date</th>
+                    </tr>
+                </thead>
+
+                <tbody id="table-body-3"></tbody>
+            </table>
+            <button class="select-fligth btn-mg">view select flight</button>
+
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

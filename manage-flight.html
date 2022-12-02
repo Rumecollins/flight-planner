@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Flight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <main class="main">
+        <div class="departure">
+            <header>Schedule Flights</header>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5">airports</th>
+                    </tr>
+                    <tr>
+                        <th>id</th>
+                        <th>airport code</th>
+                        <th colspan="1">airport name</th>
+                        <th>country</th>
+                    </tr>
+                </thead>
+
+                <tbody id="table-body-1"></tbody>
+            </table>
+            <div class="btn-mg">
+                <button>delete</button>
+                <button>update</button>
+                <button>add</button> 
+                <button>view</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5">planes</th>
+                    </tr>
+                    <tr>
+                        <th>id</th>
+                        <th>make</th>
+                        <th colspan="1">model</th>
+                        <th>year</th>
+                        <th>capacity</th>
+                    </tr>
+                </thead>
+
+                <tbody id="table-body-2">
+                    
+                </tbody>
+            </table>
+            <div class="btn-mg">
+                <button>delete</button>
+                <button>update</button>
+                <button>add</button> 
+                <button>view</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5">flights</th>
+                    </tr>
+                    <tr>
+                        <th>id</th>
+                        <th>planeid</th>
+                        <th>airport from id</th>
+                        <th>airport to id</th>
+                        <th>date</th>
+                    </tr>
+                </thead>
+
+                <tbody id="table-body-3"></tbody>
+            </table>
+           <div class="btn-mg">
+            <button>delete</button>
+            <button>update</button>
+            <button>add</button> 
+            <button>view</button>
+           </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
